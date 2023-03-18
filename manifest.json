@@ -1,0 +1,10 @@
+{
+    "name": "Adblocker",
+    "version": "1.1",
+    "description": "my_first_extension for Adblocker",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "manifest_version": 2
+}
